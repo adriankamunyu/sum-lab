@@ -29,7 +29,7 @@ export default function ProjectList({ projects, onRemove }) {
             className="w-10 h-10 flex items-center justify-center border border-gray-300 rounded-md bg-white hover:bg-gray-50 active:bg-gray-100 cursor-pointer text-gray-500 shrink-0"
             onClick={() => onRemove(project.id)}
           >
-            ✕
+            Del
           </button>
           <div>
             <div className="font-semibold text-sm">{project.title}</div>
